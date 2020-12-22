@@ -12,3 +12,5 @@ The SABR.py contains all the necessary functions needed to fit the SABR models t
 ### Caplet Fitting
 The caplet_fitting.ipynb notebook takes in a caplet implied volatility matrix data and fits the SABR model to each expiry of the caplets for the different strikes. By doing so we can obtain a list of SABR parameters for the different expiring caplets. Afterwards, we can also model the instantaneous volatility function fit and intantaneous volatility-volatility function fit using the calibrated $\alpha$ and $\nu$ of the SABR parameters. Finally, the forward-volatility correlation structure block can be identified by the $\rho$ SABR parameters that were fit into the caplets market in the diagonals.
  
+### Bermudan Swaption Valuation
+Finally, the berm_valuation notebook shows an example on how to value Bermudan Swaptions using the simulated interest rate paths under the LSM framework. Three different methods were considered: neural-network, XGBoost and least-squares for the valuation of Bermudan swaptions under the LSM framework.
