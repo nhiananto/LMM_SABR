@@ -1,0 +1,6 @@
+{
+  "activation_fn": "<function relu at 0x000001BAC2C4A8B8>",
+  "lr": 0.003046412808855872,
+  "num_hidden": 3,
+  "num_neurons": 64
+}
